@@ -1,0 +1,9 @@
+[debug] > Exec(run 9000, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:points
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 4 s, completed Jan 8, 2021, 9:18:56 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,6 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\John\Points\conf\application.conf,C:\Users\John\Points\target\scala-2.13\classes\application.conf)
+[debug] 	(C:\Users\John\Points\conf\generated.keystore,C:\Users\John\Points\target\scala-2.13\classes\generated.keystore)
+[debug] 	(C:\Users\John\Points\conf\logback.xml,C:\Users\John\Points\target\scala-2.13\classes\logback.xml)
+[debug] 	(C:\Users\John\Points\conf\routes,C:\Users\John\Points\target\scala-2.13\classes\routes)
+[debug] 	(C:\Users\John\Points\conf\secure.conf,C:\Users\John\Points\target\scala-2.13\classes\secure.conf)

@@ -1,0 +1,91 @@
+2021-01-10 08:15:34,665 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-7 - Slf4jLogger started
+2021-01-10 08:15:34,765 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-8 - create: data = PointsData(300,Dannon,2020-10-31T10:00)
+2021-01-10 08:15:34,765 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-11 - create: data = PointsData(1000,Dannon,2020-11-02T14:00)
+2021-01-10 08:15:34,765 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-9 - create: data = PointsData(200,Unilever,2020-10-31T11:00)
+2021-01-10 08:15:34,765 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-10 - create: data = PointsData(10000,MillerCoors,2020-11-01T14:00)
+2021-01-10 08:16:00,089 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-7 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-01-10 08:16:00,098 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-7 - Application started (Dev) (no global state)
+2021-01-10 08:16:00,342 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-7 - invokeBlock: 
+2021-01-10 08:16:00,343 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-7 - balance: 
+2021-01-10 08:16:00,345 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-12 - list: 
+2021-01-10 08:16:08,376 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-7 - invokeBlock: 
+2021-01-10 08:16:08,379 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-7 - show: id = Dannon
+2021-01-10 08:16:08,382 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-13 - get: id = Dannon
+2021-01-10 08:16:27,282 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-7 - invokeBlock: 
+2021-01-10 08:16:27,286 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-7 - processCreate: 
+2021-01-10 08:16:27,320 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-14 - create: data = PointsData(5000,Dannon,2021-01-10T08:16:27.317875600)
+2021-01-10 08:17:14,736 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-7 - invokeBlock: 
+2021-01-10 08:17:14,736 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-7 - balance: 
+2021-01-10 08:17:14,738 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-16 - list: 
+2021-01-10 08:19:36,728 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2021-01-10 08:19:36,785 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-10 - create: pointsList = ListBuffer()  data = PointsData(1000,Dannon,2020-11-02T14:00)
+2021-01-10 08:19:36,785 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-8 - create: pointsList = ListBuffer()  data = PointsData(200,Unilever,2020-10-31T11:00)
+2021-01-10 08:19:36,786 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-9 - create: pointsList = ListBuffer(PointsData(1000,Dannon,2020-11-02T14:00), PointsData(200,Unilever,2020-10-31T11:00))  data = PointsData(10000,MillerCoors,2020-11-01T14:00)
+2021-01-10 08:19:36,788 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-7 - create: pointsList = ListBuffer(PointsData(1000,Dannon,2020-11-02T14:00), PointsData(200,Unilever,2020-10-31T11:00), PointsData(10000,MillerCoors,2020-11-01T14:00))  data = PointsData(300,Dannon,2020-10-31T10:00)
+2021-01-10 08:19:36,797 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-10 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-01-10 08:19:36,801 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-10 - Application started (Dev) (no global state)
+2021-01-10 08:19:36,813 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2021-01-10 08:19:36,814 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-6 - balance: 
+2021-01-10 08:19:36,818 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-11 - list: 
+2021-01-10 08:21:14,207 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2021-01-10 08:21:14,262 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-9 - create: data = PointsData(10000,MillerCoors,2020-11-01T14:00)
+2021-01-10 08:21:14,262 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-8 - create: data = PointsData(200,Unilever,2020-10-31T11:00)
+2021-01-10 08:21:14,262 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-7 - create: data = PointsData(300,Dannon,2020-10-31T10:00)
+2021-01-10 08:21:14,263 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-9 - create: pointsList = ListBuffer(PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(300,Dannon,2020-10-31T10:00), PointsData(200,Unilever,2020-10-31T11:00))
+2021-01-10 08:21:14,263 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-8 - create: pointsList = ListBuffer(PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(300,Dannon,2020-10-31T10:00), PointsData(200,Unilever,2020-10-31T11:00))
+2021-01-10 08:21:14,263 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-7 - create: pointsList = ListBuffer(PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(300,Dannon,2020-10-31T10:00), PointsData(200,Unilever,2020-10-31T11:00))
+2021-01-10 08:21:14,263 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-10 - create: data = PointsData(1000,Dannon,2020-11-02T14:00)
+2021-01-10 08:21:14,264 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-10 - create: pointsList = ListBuffer(PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(300,Dannon,2020-10-31T10:00), PointsData(200,Unilever,2020-10-31T11:00), PointsData(1000,Dannon,2020-11-02T14:00))
+2021-01-10 08:21:14,273 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-14 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-01-10 08:21:14,277 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-14 - Application started (Dev) (no global state)
+2021-01-10 08:21:14,291 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2021-01-10 08:21:14,292 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-6 - balance: 
+2021-01-10 08:21:14,295 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-11 - list: 
+2021-01-10 08:21:45,391 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2021-01-10 08:21:45,395 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-6 - processCreate: 
+2021-01-10 08:21:45,402 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-12 - create: data = PointsData(5000,Dannon,2021-01-10T08:21:45.401287600)
+2021-01-10 08:21:45,403 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-12 - create: pointsList = ListBuffer(PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(300,Dannon,2020-10-31T10:00), PointsData(200,Unilever,2020-10-31T11:00), PointsData(1000,Dannon,2020-11-02T14:00), PointsData(5000,Dannon,2021-01-10T08:21:45.401287600))
+2021-01-10 08:23:45,249 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2021-01-10 08:23:45,301 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-8 - create: data = PointsData(200,Unilever,2020-10-31T11:00)
+2021-01-10 08:23:45,301 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-7 - create: data = PointsData(300,Dannon,2020-10-31T10:00)
+2021-01-10 08:23:45,301 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-9 - create: data = PointsData(10000,MillerCoors,2020-11-01T14:00)
+2021-01-10 08:23:45,301 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-10 - create: data = PointsData(1000,Dannon,2020-11-02T14:00)
+2021-01-10 08:23:45,301 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-8 - create: pointsList = ListBuffer(PointsData(200,Unilever,2020-10-31T11:00), PointsData(10000,MillerCoors,2020-11-01T14:00))
+2021-01-10 08:23:45,302 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-10 - create: pointsList = ListBuffer(PointsData(200,Unilever,2020-10-31T11:00), PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(1000,Dannon,2020-11-02T14:00))
+2021-01-10 08:23:45,303 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-7 - create: pointsList = ListBuffer(PointsData(200,Unilever,2020-10-31T11:00), PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(1000,Dannon,2020-11-02T14:00), PointsData(300,Dannon,2020-10-31T10:00))
+2021-01-10 08:23:45,303 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-9 - create: pointsList = ListBuffer(PointsData(200,Unilever,2020-10-31T11:00), PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(1000,Dannon,2020-11-02T14:00), PointsData(300,Dannon,2020-10-31T10:00))
+2021-01-10 08:23:45,310 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-14 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-01-10 08:23:45,313 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-14 - Application started (Dev) (no global state)
+2021-01-10 08:23:45,325 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2021-01-10 08:23:45,327 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-6 - balance: 
+2021-01-10 08:23:45,329 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-11 - list: 
+2021-01-10 08:23:50,714 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2021-01-10 08:23:50,719 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-6 - processCreate: 
+2021-01-10 08:23:50,725 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-13 - create: data = PointsData(5000,Dannon,2021-01-10T08:23:50.724330)
+2021-01-10 08:23:50,725 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-13 - create: pointsList = ListBuffer(PointsData(200,Unilever,2020-10-31T11:00), PointsData(10000,MillerCoors,2020-11-01T14:00), PointsData(1000,Dannon,2020-11-02T14:00), PointsData(300,Dannon,2020-10-31T10:00), PointsData(5000,Dannon,2021-01-10T08:23:50.724330))
+2021-01-10 08:23:59,984 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2021-01-10 08:23:59,984 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-6 - balance: 
+2021-01-10 08:23:59,986 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-14 - list: 
+2021-01-10 08:24:15,292 [TRACE] from v1.points.PointsActionBuilder in application-akka.actor.default-dispatcher-6 - invokeBlock: 
+2021-01-10 08:24:15,295 [INFO] from v1.points.PointsController in application-akka.actor.default-dispatcher-6 - show: id = Dannon
+2021-01-10 08:24:15,299 [INFO] from v1.points.PointsRepositoryImpl in application-repository.dispatcher-15 - get: id = Dannon
